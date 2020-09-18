@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>圖片 XSS</title>
+	</head>
+	<body>
+		<div>img 標籤也可以拿來做 XSS 攻擊！</div>
+		<img src="錯誤的網址" onerror="alert('竊取的 Cookie：\n' + document.cookie);">
+	</body>
+</html>

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>iframe XSS demo</title>
+	</head>
+	<body>
+		<div>iframe 攻擊</div>
+		<iframe onload="alert('竊取的 Cookie：\n' + document.cookie);"></iframe>
+	</body>
+</html>

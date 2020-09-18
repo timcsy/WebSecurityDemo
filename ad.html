@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>惱人廣告</title>
+	</head>
+	<body>
+		<h1>ANNOYING AD</h1>
+		<p id="t"></p>
+	</body>
+	<script>
+		const t = document.getElementById('t')
+		t.innerHTML = '第 ' + window.location.search.substr(1) + ' 個廣告'
+	</script>
+</html>
