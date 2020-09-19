@@ -248,7 +248,7 @@ Demo
 	![](images/delete.png)
 - 因為這個請求是需要權限的，但是因為我們沒有關閉瀏覽器或登出，所以 Session 紀錄還在，這樣攻擊者就可以取得權限
 
-### SQL injection（SQL注入）
+#### SQL injection（SQL注入）
 
 ![](images/sql.png)
 
