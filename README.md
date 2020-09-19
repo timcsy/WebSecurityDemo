@@ -105,6 +105,15 @@ $DB_NAME = '資料庫的名稱';
 
 [介紹 Session 及 Cookie 兩者的差別說明](https://blog.hellojcc.tw/introduce-session-and-cookie/)
 
+儲存位置：
+
+Cookie -> Client 端
+
+Session -> Server 端
+
+Session ID -> Cookie 中
+
+
 ### JavaScript 的攻擊性
 
 前半段在說明網路攻擊常用在 JavaScript 的哪些特性
