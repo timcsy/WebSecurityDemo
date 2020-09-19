@@ -332,8 +332,6 @@ Demo
 
 參考資料
 ---
-- [Browser hijacking - Wiki](https://en.wikipedia.org/wiki/Browser_hijacking)
-- [What is browser hijacking and why is it so common?](https://www.ophtek.com/browser-hijacking-common/)
 - [Page hijacking - Wiki](https://en.wikipedia.org/wiki/Page_hijacking)
 - [2015年的漏洞攻擊包（Exploit Kit）：充斥著Flash漏洞、淪陷網站和惡意廣告](https://blog.trendmicro.com.tw/?p=17109)
 - [SessionID.cookie,Session傻傻分不清楚??](https://dotblogs.com.tw/daniel/2017/04/08/110915)
