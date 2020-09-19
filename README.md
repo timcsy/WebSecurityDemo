@@ -210,7 +210,7 @@ document.cookie
   - JavaScript 不會當成 HTML 解釋
 
 Demo
-- 先去 http://localhost:8080 （或是你的 host address）註冊並且登入
+- 先去 http://localhost:8000 （或是你的 host address）註冊並且登入
 - 你會看到一個留言板系統
 - 可以試著將上面所有提到的 Javascript 碼複製到留言框
 - 因為我們沒有對留言做檢查，所以可能將這個 HTML 元素呈現出來
